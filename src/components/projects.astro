@@ -1,9 +1,8 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import velez from "../../public/velez.png";
+import learningResouces from "../../public/learning_resources.png";
+import flipsInsights from "../../public/flipsInsights.png";
+import tecnomachine from "../../public/tecnomachine.png";
 
 interface Project {
   title: string;
@@ -15,31 +14,24 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
+    title: "Learning Resources Catalog",
+    image: learningResouces as ImageMetadata,
+    link: "https://github.com/martinforger/learning-resources",
+    preview: "https://catalogo-de-recursos.vercel.app",
     status: "Deployed",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
-    status: "On Development",
+    title: "Tecnomachine Website",
+    image: tecnomachine as ImageMetadata,
+    link: "https://github.com/martinforger/mkultra2.0",
+    preview: "https://romantic-brown-ab3009.netlify.app/",
+    status: "Deployed",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
-    status: "Contributor",
-  },
-  {
-    title: "Rifas Velez Web",
-    image: velez as ImageMetadata,
-    link: "https://github.com/Buga-Software/rifasvelez-web",
-    preview: "https://www.rifasvelez.com",
+    title: "Flips Insights",
+    image: flipsInsights as ImageMetadata,
+    link: "https://github.com/martinforger/Hackaton2025",
+    preview: "https://hackathon2025ucab.vercel.app/",
     status: "Deployed",
   },
 ];
