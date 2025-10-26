@@ -8,14 +8,11 @@ The component `<LetterGlitch \>` was taken from [ReactBits.dev](https://www.reac
 
 ### **Frontend**
 
-![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=astro,react,tailwind,ts)](https://skillicons.dev)
 
 ### **Tools**
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black)
+[![My Skills](https://skillicons.dev/icons?i=figma,vscode,prettier)](https://skillicons.dev)
 
 ## **Project structure**
 
